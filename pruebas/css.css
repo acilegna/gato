@@ -1,0 +1,30 @@
+*{
+    /*quitar pading y marging a todo el documento pues
+    por defecto body tiene pading y margin*/
+    padding: 0px;
+    margin: 0px;
+}
+
+/*para todas las etiquetas p*/
+p{
+    color: blue;
+    font-size: 20px;
+}
+
+/*para todas las etiquetas con id etiqueta, tiene mayor jerarquia q el nombre de la etiqueta y q una clase */
+#etiqueta{
+    color:red;
+}
+
+.clase{
+    color: purple;
+}
+
+
+.cuadro{
+    background-color: red;
+      /*hacia fuera*/
+    padding: 10px;
+    /*hacia dentro apartir del contenido*/
+    margin: 10px;
+}
